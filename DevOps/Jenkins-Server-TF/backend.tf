@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "techit-1707047961"
+    bucket         = "techit-1707050150"
     region         = "us-east-1"
     key            = "DDP-TIF-Project/DevOps/Jenkins-Server-TF/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "Lock-Files-EKS"
     encrypt        = true
   }
   required_version = ">=0.13.0"

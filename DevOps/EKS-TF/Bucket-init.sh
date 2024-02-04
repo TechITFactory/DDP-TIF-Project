@@ -5,7 +5,7 @@ REGION="us-east-1"
 
 # Generate random names with compliant structure
 BUCKET_NAME="techit-$(date +%s)"
-DYNAMODB_TABLE_NAME="Lock-Files-EKS"
+DYNAMODB_TABLE_NAME="Lock-Files-EKSNew"
 
 # Ensure AWS CLI uses the correct region
 export AWS_DEFAULT_REGION=$REGION
