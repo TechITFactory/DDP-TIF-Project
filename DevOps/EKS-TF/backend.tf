@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "techit-1707044769"
+    bucket         = "techit-1707047961"
     region         = "us-east-1"
     key            = "DDP-TIF-Project/DevOps/Jenkins-Server-TF/terraform.tfstate"
     dynamodb_table = "Lock-Files"
