@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BUCKET_NAME="techit-1707033914"
+BUCKET_NAME="techit-1707043777"
 DYNAMODB_TABLE_NAME="Lock-Files"
 REGION="us-east-1"
 

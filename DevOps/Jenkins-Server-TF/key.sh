@@ -4,7 +4,7 @@
 KEY_BASE_NAME="jenkins-key"
 VARS_FILE="variables.tfvars"
 TMP_FILE="${VARS_FILE}.tmp"
-BUCKET_NAME="techit-1707034503" # Replace with your actual S3 bucket name
+BUCKET_NAME="techit-1707047961" # Replace with your actual S3 bucket name
 
 # Generate a unique name for the key pair
 UNIQUE_KEY_NAME="${KEY_BASE_NAME}-$(date +%s)"
