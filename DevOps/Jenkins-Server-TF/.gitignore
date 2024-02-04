@@ -1,0 +1,27 @@
+# Terraform ignore file
+
+# Ignore directory created by terraform init
+**/.terraform/*
+
+# Ignore .tfstate files as they can contain sensitive data and should not be committed to version control
+*.tfstate
+*.tfstate.*
+
+# Ignore plan output files
+*.tfplan
+*.tfplan.*
+
+# Ignore Terraform variable definition files if sensitive data is used
+# *.tfvars
+# Uncomment the above line if you're using .tfvars files that contain sensitive data,
+# but be cautious with this if you're using .tfvars files for defining non-sensitive variables.
+
+# Ignore override files as they can be used to override resources locally and should not be committed
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
